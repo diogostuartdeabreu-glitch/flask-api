@@ -1,0 +1,29 @@
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Flask
+instance/
+
+# Variáveis de ambiente / senhas
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Cache
+.pytest_cache/
+.ruff_cache/
